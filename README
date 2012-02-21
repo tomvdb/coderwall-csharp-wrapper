@@ -1,0 +1,24 @@
+Basic c# class for retrieving information from the Coderwall API (http://coderwall.com/api#profileapi). 
+
+Notes:
+- This is currently only a proof of concept, use at own risk
+- This is a VS2010 Solution with test project, if you want to use in own project then you only need CoderwallAPI.cs and DynamicJsonConverter.cs
+- No error handling implemented yet
+
+Basic Usage:
+
+      string userName = usernameTextBox.Text;
+
+      CoderwallAPI CoderWallData = new CoderwallAPI(userName);
+
+      textBox1.Text = CoderWallData.Name;
+      textBox2.Text = CoderWallData.Location;
+      textBox3.Text = CoderWallData.Endorsements.ToString();
+
+      listBox1.Items.Clear();
+
+      for (int c = 0; c < CoderWallData.BadgeCount; c++)
+      {
+        listBox1.Items.Add(CoderWallData.Badges[c].Name + "-" + CoderWallData.Badges[c].Description);
+      }
+

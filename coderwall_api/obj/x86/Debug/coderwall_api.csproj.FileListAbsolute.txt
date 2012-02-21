@@ -1,0 +1,10 @@
+C:\source\coderwall_api\coderwall_api\bin\Debug\coderwall_api.exe
+C:\source\coderwall_api\coderwall_api\bin\Debug\coderwall_api.pdb
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\coderwall_api.mainFrm.resources
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\coderwall_api.Properties.Resources.resources
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\coderwall_api.exe
+C:\source\coderwall_api\coderwall_api\obj\x86\Debug\coderwall_api.pdb
+C:\source\coderwall_api\coderwall_api\bin\Debug\coderwall_api.exe.config
