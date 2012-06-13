@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace coderwall_api
+namespace APIDemo
 {
   static class Program
   {
@@ -15,7 +15,7 @@ namespace coderwall_api
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new mainFrm());
+      Application.Run(new main());
     }
   }
 }

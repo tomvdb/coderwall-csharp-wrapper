@@ -22,22 +22,26 @@ namespace coderwall_api
   {
     public struct BadgesStruct
     {
-      public string Name;
-      public string Description;
-      public string BadgeImage;
+      public string name;
+      public string description;
+      public string badgeImage;
     };
 
-    public string Username;
+    private string userName = null;
+
+    // todo: create proper property
     public string Name;
     public string Location;
     public int Endorsements;
     public int BadgeCount;
-    public BadgesStruct[] Badges;
+    
+    public List<BadgesStruct> Badges = new List<BadgesStruct>();
 
-    public CoderwallAPI(string UserName)
+    public CoderwallAPI(string _userName)
     {
-      string apiCall = "http://coderwall.com/" + UserName + ".json";
 
+      string apiCall = "http://coderwall.com/" + _userName + ".json";
+      userName = _userName;
       doWebRequest(apiCall);
     }
 
@@ -49,16 +53,16 @@ namespace coderwall_api
       request.Method = "GET";
       request.ContentType = "application/json; charset=utf-8";
 
-      HttpWebResponse response;
+      HttpWebResponse response = null;
 
       try
       {
         response = (HttpWebResponse)request.GetResponse();
       }
-      catch (Exception Ex)
+      catch (WebException Ex)
       {
-        // TODO: correct error handling
-        return;
+        if (Ex.Message.Contains("404"))
+          throw new NotFoundException("User:" + userName + " or service (http://coderwall.com/) not Found.");
       }
 
       TextReader temp = new StreamReader(response.GetResponseStream());
@@ -71,19 +75,21 @@ namespace coderwall_api
 
       dynamic obj = serializer.Deserialize(data, typeof(object));
 
-      Username = obj.username;
       Name = obj.name;
       Location = obj.location;
       Endorsements= (int)obj.endorsements;
       BadgeCount = (int)obj.badges.Count;
 
-      Badges = new BadgesStruct[BadgeCount];
-
       for (int c = 0; c < BadgeCount; c++)
       {
-        Badges[c].Name = obj.badges[c].name;
-        Badges[c].Description = obj.badges[c].description;
-        Badges[c].BadgeImage = obj.badges[c].badge;
+        BadgesStruct badge = new BadgesStruct();
+        badge.name = obj.badges[c].name;
+        badge.description = obj.badges[c].description;
+
+        // this seems to have changed
+        badge.badgeImage = obj.badges[c].badge.badge_class_name;
+
+        Badges.Add(badge);
       }
     }
     
