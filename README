@@ -1,3 +1,6 @@
+== NOTE: I'm busy turning this into a proper API library. Might be broken. Please try again in a few days (2012/06/13) ==
+
+
 Basic c# class for retrieving information from the Coderwall API (http://coderwall.com/api#profileapi). 
 
 Notes:
