@@ -10,3 +10,15 @@ C:\source\csharp\coderwall-csharp-wrapper\APIDemo\bin\Debug\coderwall_api.dll
 C:\source\csharp\coderwall-csharp-wrapper\APIDemo\bin\Debug\coderwall_api.pdb
 C:\source\csharp\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.exe
 C:\source\csharp\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.pdb
+C:\source\coderwall-csharp-wrapper\APIDemo\bin\Debug\APIDemo.exe.config
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.exe
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.pdb
+C:\source\coderwall-csharp-wrapper\APIDemo\bin\Debug\APIDemo.exe
+C:\source\coderwall-csharp-wrapper\APIDemo\bin\Debug\APIDemo.pdb
+C:\source\coderwall-csharp-wrapper\APIDemo\bin\Debug\coderwall_api.dll
+C:\source\coderwall-csharp-wrapper\APIDemo\bin\Debug\coderwall_api.pdb
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.main.resources
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\APIDemo.Properties.Resources.resources
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\source\coderwall-csharp-wrapper\APIDemo\obj\x86\Debug\GenerateResource.write.1.tlog

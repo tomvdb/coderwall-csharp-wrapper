@@ -87,7 +87,7 @@ namespace coderwall_api
         badge.description = obj.badges[c].description;
 
         // this seems to have changed
-        badge.badgeImage = obj.badges[c].badge.badge_class_name;
+        badge.badgeImage = obj.badges[c].badge;
 
         Badges.Add(badge);
       }

@@ -42,6 +42,13 @@ namespace APIDemo
       locationValueLabel.Text = coderWallData.Location;
       endorsementsValueLabel.Text = coderWallData.Endorsements.ToString();
 
+      // show badges
+      for (int c = 0; c < coderWallData.BadgeCount; c++)
+      {
+        ListViewItem i = listView1.Items.Add(coderWallData.Badges[c].name);
+        i.ToolTipText = coderWallData.Badges[c].description;
+      }
+
 
     }
   }

@@ -37,6 +37,7 @@
       this.nameValueLabel = new System.Windows.Forms.Label();
       this.locationValueLabel = new System.Windows.Forms.Label();
       this.endorsementsValueLabel = new System.Windows.Forms.Label();
+      this.listView1 = new System.Windows.Forms.ListView();
       this.SuspendLayout();
       // 
       // userNameField
@@ -116,11 +117,21 @@
       this.endorsementsValueLabel.Size = new System.Drawing.Size(0, 13);
       this.endorsementsValueLabel.TabIndex = 8;
       // 
+      // listView1
+      // 
+      this.listView1.Location = new System.Drawing.Point(21, 112);
+      this.listView1.Name = "listView1";
+      this.listView1.ShowItemToolTips = true;
+      this.listView1.Size = new System.Drawing.Size(660, 289);
+      this.listView1.TabIndex = 9;
+      this.listView1.UseCompatibleStateImageBehavior = false;
+      // 
       // main
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(702, 413);
+      this.Controls.Add(this.listView1);
       this.Controls.Add(this.endorsementsValueLabel);
       this.Controls.Add(this.locationValueLabel);
       this.Controls.Add(this.nameValueLabel);
@@ -148,6 +159,7 @@
     private System.Windows.Forms.Label nameValueLabel;
     private System.Windows.Forms.Label locationValueLabel;
     private System.Windows.Forms.Label endorsementsValueLabel;
+    private System.Windows.Forms.ListView listView1;
   }
 }
 

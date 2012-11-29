@@ -17,3 +17,12 @@ C:\source\csharp\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\coderwall_
 C:\source\csharp\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\source\csharp\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\source\csharp\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\coderwall_api.dll
+C:\source\coderwall-csharp-wrapper\coderwall_api\bin\Debug\coderwall_api.dll.config
+C:\source\coderwall-csharp-wrapper\coderwall_api\bin\Debug\coderwall_api.dll
+C:\source\coderwall-csharp-wrapper\coderwall_api\bin\Debug\coderwall_api.pdb
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\coderwall_api.Properties.Resources.resources
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\coderwall_api.dll
+C:\source\coderwall-csharp-wrapper\coderwall_api\obj\x86\Debug\coderwall_api.pdb
